@@ -1,0 +1,4 @@
+#Sun Jun 16 16:27:15 WAT 2019
+base.0=/home/sterling/Bureau/pour test App Android/app_cheval/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

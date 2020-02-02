@@ -1,0 +1,4 @@
+#Wed May 29 17:50:01 WAT 2019
+base.0=/home/sterling/Bureau/pour test App Android/app_cheval/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex
