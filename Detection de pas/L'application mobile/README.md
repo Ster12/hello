@@ -1,0 +1,2 @@
+- app-debug.apk, c'est l'apk de l'application.
+- Le dossier RunningDetector c'est le projet AndroidStudio de l'application.

@@ -1,0 +1,53 @@
+﻿60 epochs
+
+#dense1 = tf.contrib.layers.fully_connected(reshaped, 1000 ,activation_fn=tf.nn.relu,scope='Dense1')
+
+Accuracy:  0.9520548 Accuracy Test:  0.8816568
+Elapsed time:  1.3751009941101073 min
+
+avec dense1 = tf.contrib.layers.fully_connected(reshaped, 1000 ,activation_fn=tf.nn.relu,scope='Dense1')
+
+ Accuracy:  0.94863015 Accuracy Test:  0.8994083
+Elapsed time:  1.7473472674687704 min
+
+80 epochs
+
+Accuracy:  0.95719177 Accuracy Test:  0.89349115
+Elapsed time:  1.7495752851168314 min
+
+Epoch : 79  Loss:  0.0887968 Test_Loss:  0.31834504
+ Accuracy:  0.97431505 Accuracy Test:  0.88757396
+Elapsed time:  2.2227649052937823 min
+
+
+Epoch : 79  Loss:  0.10045709 Test_Loss:  0.33048937
+ Accuracy:  0.9708904 Accuracy Test:  0.89349115
+Elapsed time:  2.3000688036282857 min
+
+Epoch : 79  Loss:  0.08239502 Test_Loss:  0.25915563
+ Accuracy:  0.97431505 Accuracy Test:  0.9230769
+Elapsed time:  2.5327269156773884 min
+
+à 104 on est à 0,947
+
+logits = tf.contrib.layers.fully_connected(dense4,4,activation_fn=None,scope='Dense5')
+ Epoch : 103  Loss:  0.04378649 Test_Loss:  0.29660287
+ Accuracy:  0.9914383 Accuracy Test:  0.9230769
+
+logits = tf.contrib.layers.fully_connected(dense4,5,activation_fn=None,scope='Dense5)
+Epoch : 105  Loss:  0.11403939 Test_Loss:  0.26023328
+ Accuracy:  0.96746576 Accuracy Test:  0.92899406
+
+
+conv4 = tf.layers.conv2d(inputs= conv3,filters=33,kernel_size=3, padding="SAME",strides=[1,1], activation=tf.nn.relu)
+Epoch : 95  Loss:  0.038498905 Test_Loss:  0.24260174
+Accuracy:  0.99486303 Accuracy Test:  0.93491125
+
+
+Epoch : 76  Loss:  0.06197957 Test_Loss:  0.22415522
+Accuracy:  0.98630136 Accuracy Test:  0.93491125
+Elapsed time:  2.4965473572413126 min
+
+
+
+

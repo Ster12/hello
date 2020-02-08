@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliquez pour vous connecter" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection" />
+
+    <Button
+        android:id="@+id/Boutton_Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lire les fichiers" />
+
+    <Button
+        android:id="@+id/Button_horse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fichier Cheval" />
+</LinearLayout>
+
+
+
