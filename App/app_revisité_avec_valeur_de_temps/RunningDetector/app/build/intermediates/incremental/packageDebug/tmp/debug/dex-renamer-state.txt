@@ -1,0 +1,4 @@
+#Mon Jun 17 15:11:05 WAT 2019
+base.0=/home/sterling/Bureau/App/app_revisité_avec_valeur_de_temps/Bosco/RunningDetector/RunningDetector/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

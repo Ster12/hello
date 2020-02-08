@@ -1,0 +1,4 @@
+#Thu May 16 11:55:48 CEST 2019
+base.0=D\:\\raphacer\\TTNA3\\stage_umons_2019\\test_esp\\ADXL345_commu_avec_appJulienPolop_base_sur_le_code_d'alexandre\\app_cheval\\Bosco\\RunningDetector\\RunningDetector\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
